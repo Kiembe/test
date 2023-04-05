@@ -441,6 +441,18 @@ footer .container .left ul {
 }
 
 
+.reveral{
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.reveral.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
 @media screen and (max-width:950px) {
     header .container .nav_bar{
         display: none;
