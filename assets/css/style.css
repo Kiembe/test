@@ -509,7 +509,7 @@ footer .container .left ul {
 
     .banner{
         max-height: 100vh;
-        background-size: 70vh 160vw;
+        background-size: 70vh 200vw;
         background-attachment: unset;
     }
 
@@ -626,4 +626,39 @@ footer .container .left ul {
         display: flex;
         margin:  0 auto;
     }
+}
+
+@media screen and (max-width:400px){
+
+    header .container .logo{
+        width: 25rem;
+    }
+    
+    .banner .container h1{
+        font-size:4rem ;
+        padding-top: 10rem;
+    }
+
+    .banner .container p{
+        font-size: 1.8rem
+    }
+
+    .banner .container span{
+        font-size: 1.9rem
+    }
+
+    .mobile-ver .top .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .mobile-ver .top .left .chPlay,
+    .mobile-ver .top .left .appStore{
+        min-width: 100%;
+        font-size: 1.8rem;
+        background-size: 3rem;
+    }
+
+
 }
