@@ -524,6 +524,10 @@ footer .container .left ul {
         padding-top: 10rem;
     }
 
+    .banner .container button{
+        margin-bottom: 5rem;
+    }
+
     .banner ul{
         display: none;
     }
